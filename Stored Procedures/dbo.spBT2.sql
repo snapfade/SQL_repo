@@ -7,6 +7,6 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-	select * from tblBT2
+	select top 100 * from tblBT2
 END
 GO
