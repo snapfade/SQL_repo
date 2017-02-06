@@ -7,6 +7,7 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
+	---adding comments
 	select top 100 * from tblBT2
 END
 GO
